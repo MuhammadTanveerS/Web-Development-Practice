@@ -1,0 +1,23 @@
+{
+  "name": "web-development-practice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MuhammdTanveer/Web-Development-Practice.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MuhammdTanveer/Web-Development-Practice/issues"
+  },
+  "homepage": "https://github.com/MuhammdTanveer/Web-Development-Practice#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
