@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Info</title>
+</head>
+<body>
+    <h2><%= product.name %> </h2>
+    <ul>
+        <li>price : $<%= product.price %></li>
+        <li>category : <%= product.category %></li>
+    </ul>
+    <a href="/all">All Products</a>
+    <br>
+    <a href="/all/<%=product.id%>/edit">Edit</a>
+    <br>
+    <form action="/all/<%=product.id%>" method="post">
+        <button>DELETE</button>
+    </form>
+    
+</body>
+</html>
